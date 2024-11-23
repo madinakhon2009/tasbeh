@@ -23,10 +23,16 @@ body{
     font-family: "Kanit";
 }
 .box button{
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
     border: 1px solid #035a03;
-    border-radius: 10px;
-    color: #035a03;
+    border-radius: 50px;
+    background-color: #035a03;
+    color: #e6ffe6;
+    transition: 0.5s;
+}
+.box button:hover{
+    background-color: #15f00d;
+
 }
